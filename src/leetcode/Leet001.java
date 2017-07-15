@@ -4,15 +4,7 @@ package leetcode;
 <<<<<<< HEAD
  * Created by Eric on 2017/7/13.
  */
-public class Leet001 {
-    public int[] twoSum(int[] nums, int target) {
-        for (int i = 0; i < nums.length; i++) {
-            
-        }
-        return null;
-=======
- * Created by zhangdong8 on 2017/7/13.
- */
+
 public class Leet001 {
     public int[] twoSum(int[] nums, int target) {
         int[] result=new int[2];
@@ -35,6 +27,5 @@ public class Leet001 {
         for (int i = 0; i < result.length; i++) {
             System.out.println(result[i]);
         }
->>>>>>> 3602bfc90ee6cf1d1298a4404cfd5939487dfd77
     }
 }
