@@ -8,5 +8,9 @@ public class LeetTest {
         Integer i =2;
         int j=2;
         System.out.println(i==j);
+
+        String str="abcd";
+        String s="ab";
+        System.out.println(str.indexOf(s));
     }
 }
