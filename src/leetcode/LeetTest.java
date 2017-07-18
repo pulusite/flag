@@ -12,5 +12,7 @@ public class LeetTest {
         String str="abcd";
         String s="ab";
         System.out.println(str.indexOf(s));
+
+        System.out.println(Long.parseLong("0") == 0L);
     }
 }
