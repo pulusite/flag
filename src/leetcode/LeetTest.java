@@ -14,5 +14,9 @@ public class LeetTest {
         System.out.println(str.indexOf(s));
 
         System.out.println(Long.parseLong("0") == 0L);
+
+        System.out.println("abcdef".substring(2,4));
+
+        System.out.println(""==null);
     }
 }
