@@ -1,7 +1,7 @@
 package leetcode;
 
 /**
- * Created by zhangdong8 on 2017/7/14.
+ * Created by zhangdong on 2017/7/14.
  */
 public class Leet009 {
     public boolean isPalindrome(int x) {

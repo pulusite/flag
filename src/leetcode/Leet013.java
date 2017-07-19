@@ -3,7 +3,7 @@ package leetcode;
 import java.util.HashMap;
 
 /**
- * Created by zhangdong8 on 2017/7/14.
+ * Created by zhangdong on 2017/7/14.
  */
 public class Leet013 {
     public int romanToInt(String s) {
