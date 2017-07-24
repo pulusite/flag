@@ -1,8 +1,38 @@
 package leetcode;
 
+import java.util.HashMap;
+import java.util.Stack;
+
 /**
- * Created by dongzhang on 7/5/17.
+ * Created by zhangdong on 7/5/17.
  */
 public class Leet020 {
+    public boolean isValid(String s) {
+        HashMap<Character, Character> map = new HashMap<>();
+        map.put('(', ')');
+        map.put('[', ']');
+        map.put('{', '}');
+        Stack<Character> stack = new Stack<>();
+
+        for (int i = 0; i < s.length(); i++) {
+            char curr = s.charAt(i);
+            if (map.keySet().contains(curr)) {
+                stack.push(curr);
+            } else if (map.values().contains(curr)) {
+                if (!stack.isEmpty() && map.get(stack.peek()) == curr) {
+                    stack.pop();
+                } else {
+                    return false;
+                }
+            }
+        }
+        return stack.isEmpty();
+    }
+
+    public static void main(String[] args) {
+        Leet020 leet = new Leet020();
+        String s="{}[()]";
+        System.out.println(leet.isValid(s));
+    }
 
 }
