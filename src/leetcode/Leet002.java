@@ -5,19 +5,15 @@ package leetcode;
  */
 public class Leet002 {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
-        if (l1==null) return l2;
-        if (l2==null) return l1;
-        ListNode result = new ListNode(0);
-        int carry=0;
-        while (l1.next!=null && l2.next!=null){
-            carry=(l1.val+l2.val)/10;
-            result.val=(l1.val+l2.val)%10+carry;
-            result=result.next;
-            l1=l1.next;
-            l2=l2.next;
+        if (l1 == null || l2 == null) {
+            return l1 == null ? l2 : l1;
         }
-        if (l1.next==null) result.next=l2.next;
-        if (l2.next==null) result.next=l1.next;
+        int value = l1.val + l2.val;
+        ListNode result = new ListNode(value % 10);
+        result.next = addTwoNumbers(l1.next, l2.next);
+        if (value >= 10) {
+            result.next = addTwoNumbers(new ListNode(value / 10), result.next);
+        }
         return result;
     }
 
