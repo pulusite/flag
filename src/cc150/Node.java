@@ -1,11 +1,15 @@
 package cc150;
 
+import java.util.List;
+
 /**
  * Created by zhangdong8 on 2017/7/6.
  */
 public class Node {
     Node next = null;
     int data;
+    Enum state;
+    List<Node> adjacent;
 
     public Node(int d) {
         data = d;
@@ -33,5 +37,13 @@ public class Node {
             n = n.next;
         }
         return head;
+    }
+
+    public List<Node> getAdjacent() {
+        return adjacent;
+    }
+
+    public void setAdjacent(List<Node> adjacent) {
+        this.adjacent = adjacent;
     }
 }
