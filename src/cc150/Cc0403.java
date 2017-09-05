@@ -20,6 +20,6 @@ public class Cc0403 {
     }
 
     TreeNode createMinimalBST(int array[]) {
-        return createMinimalBST(array, 0, array.length - 1;)
+        return createMinimalBST(array, 0, array.length - 1);
     }
 }
