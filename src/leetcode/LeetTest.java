@@ -1,6 +1,7 @@
 package leetcode;
 
 import java.net.InetAddress;
+import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -10,12 +11,21 @@ import java.util.Map;
  * Created by zhangdong on 2017/7/11.
  */
 public class LeetTest {
+    public static int getDiscrepantDays(Date dateStart, Date dateEnd) {
+        return (int) ((dateEnd.getTime() - dateStart.getTime()) / 1000 / 60 / 60 / 24);
+    }
     public static void main(String[] args) throws Exception{
+        //两个日期之间的天数
+        Date today = new Date();
+        String dateExpiredStr = "2018-2-17 1:21:28";
+        SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        System.out.println(getDiscrepantDays(today,format.parse(dateExpiredStr)));
+
         Map<String,String> map1 = new HashMap<String, String>();
 //        map1.put("s",1);//会报错
         Map map2 = new HashMap<String, String>();
         map2.put("s",1);//不会报错
-        System.out.println(map1.get("s").getClass());
+//        System.out.println(map1.get("s").getClass());
 
         System.out.println(new Date());
         System.out.println(new Date(new Date().getTime()+600000));
