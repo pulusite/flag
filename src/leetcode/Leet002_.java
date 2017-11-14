@@ -15,7 +15,6 @@ public class Leet002_ {
             result.next = addTwoNumbers(new ListNode(value / 10), result.next);
         }
         return result;
-
     }
 
     public static void main(String[] args) {
