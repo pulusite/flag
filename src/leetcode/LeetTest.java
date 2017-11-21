@@ -19,7 +19,7 @@ public class LeetTest {
         Date today = new Date();
         String dateExpiredStr = "2018-2-17 1:21:28";
         SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        System.out.println(getDiscrepantDays(today,format.parse(dateExpiredStr)));
+        System.out.println("外语商务英语课程过期还剩："+getDiscrepantDays(today,format.parse(dateExpiredStr))+"天");
 
         Map<String,String> map1 = new HashMap<String, String>();
 //        map1.put("s",1);//会报错
