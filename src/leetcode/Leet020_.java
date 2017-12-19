@@ -6,7 +6,7 @@ import java.util.Stack;
 /**
  * Created by zhangdong on 7/5/17.
  */
-public class Leet020 {
+public class Leet020_ {
     public boolean isValid(String s) {
         HashMap<Character, Character> map = new HashMap<>();
         map.put('(', ')');
@@ -30,7 +30,7 @@ public class Leet020 {
     }
 
     public static void main(String[] args) {
-        Leet020 leet = new Leet020();
+        Leet020_ leet = new Leet020_();
         String s="{}[()]";
         System.out.println(leet.isValid(s));
     }
