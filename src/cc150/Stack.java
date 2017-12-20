@@ -8,15 +8,13 @@ public class Stack {
 
     Object pop() {
         if (top != null) {
-            Object item = top.data;
-            top = top.next;
-            return item;
+
+            return null;
         }
         return null;
     }
 
     void push(Object item) {
-        Node t = new Node((int) item);
 
     }
 }
