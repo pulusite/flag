@@ -4,17 +4,15 @@ package tba.sort;
  * Created by dongzhang on 7/6/17.
  */
 public class BinarySearch {
-    public static int binarySearch(int[] srcArray, int des) {
-        int low = 0;
-        int high = srcArray.length - 1;
+    public static int binarySearch(int[] nums, int low,int high,int x) {
         while (low <= high) {
-            int middle = (low + high) / 2;
-            if (des == srcArray[middle]) {
-                return middle;
-            } else if (des < srcArray[middle]) {
-                high = middle - 1;
+            int mid = (low + high) / 2;
+            if (x == nums[mid]) {
+                return mid;
+            } else if (x < nums[mid]) {
+                high = mid - 1;
             } else {
-                low = middle + 1;
+                low = mid + 1;
             }
         }
         return -1;
