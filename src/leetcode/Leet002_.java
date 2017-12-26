@@ -29,7 +29,7 @@ public class Leet002_ {
 
         ListNode result = leet.addTwoNumbers(l1, l2);
         while (result!=null){
-            System.out.println(result.val);
+            System.out.print(result.val+" ");
             result=result.next;
         }
     }
