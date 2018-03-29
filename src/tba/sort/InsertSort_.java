@@ -11,6 +11,8 @@ public class InsertSort_ {
                     int temp=nums[j+1];
                     nums[j+1]=nums[j];
                     nums[j]=temp;
+                }else {
+                    break;
                 }
             }
         }

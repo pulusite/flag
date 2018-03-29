@@ -1,4 +1,4 @@
-package tba.redpacket;
+package tba.red;
 
 import java.util.Random;
 

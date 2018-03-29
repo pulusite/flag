@@ -1,4 +1,4 @@
-package tba.redpacket;
+package tba.red;
 
 /**
  * Created by zhangdong on 2017/10/20.
