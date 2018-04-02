@@ -1,5 +1,7 @@
 package leetcode;
 
+import com.sun.xml.internal.ws.util.StringUtils;
+
 import java.net.InetAddress;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -14,13 +16,24 @@ public class LeetTest {
     public static int getDiscrepantDays(Date dateStart, Date dateEnd) {
         return (int) ((dateEnd.getTime() - dateStart.getTime()) / 1000 / 60 / 60 / 24);
     }
+    public int maxArea(int[] height) {
+        return 0;
+    }
     public static void main(String[] args) throws Exception{
+        String sss="https://h5pay.jd.com/code?c=64zrlm6x6739m0";
+        System.out.println(sss.substring(sss.lastIndexOf("=")+1));
+        Map<String, Object> reqMap=new HashMap<String,Object>();
+        reqMap.put("1","aa");
+        System.out.println(reqMap);
+        System.out.println("".equals(null));
+        System.out.println("1515061286254".length());
         //两个日期之间的天数
         Date today = new Date();
         String dateExpiredStr = "2018-2-17 1:21:28";
         SimpleDateFormat format = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         System.out.println("外语商务英语课程过期还剩："+getDiscrepantDays(today,format.parse(dateExpiredStr))+"天");
-
+        HashMap<Character,Integer> hm = new HashMap<>();
+        System.out.println(hm.get('('));
         Map<String,String> map1 = new HashMap<String, String>();
 //        map1.put("s",1);//会报错
         Map map2 = new HashMap<String, String>();

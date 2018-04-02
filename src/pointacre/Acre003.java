@@ -44,7 +44,7 @@ public class Acre003 {
                 if (!stack.isEmpty()) stack.pop();
             } else if (Character.isLowerCase(c) || Character.isUpperCase(c)) {
                 String atom = Character.isUpperCase(c) ? c + "" : s.substring(i - 1, i + 1);
-                map.put(atom, map.getOrDefault(atom, 0) + ((stack.isEmpty()) ? 1 : stack.peek()));
+//                map.put(atom, map.getOrDefault(atom, 0) + ((stack.isEmpty()) ? 1 : stack.peek()));
                 if (Character.isDigit(prev)) stack.pop();
                 if (Character.isLowerCase(c)) i--;
             }

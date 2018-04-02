@@ -15,18 +15,17 @@ package leetcode;
  */
 public class Leet238_ {
     public int[] productExceptSelf(int[] nums) {
-        int[] result =new int[nums.length];
-        int mult=1;
-        for (int i = 0; i < nums.length; i++) {
-            mult*=nums[i];
+        int n = nums.length;
+        int[] res = new int[n];
+        res[0] = 1;
+        for (int i = 1; i < n; i++) {
+            res[i] = res[i - 1] * nums[i - 1];
         }
-        for (int i = 0; i < nums.length; i++) {
-            if (nums[i]!=0){
-                result[i]=mult/nums[i];
-            }else {
-                result[i]=0;//
-            }
+        int right = 1;
+        for (int i = n - 1; i >= 0; i--) {
+            res[i] *= right;
+            right *= nums[i];
         }
-        return result;
+        return res;
     }
 }
