@@ -1,7 +1,5 @@
 package tba.dp.observer.WeatherStation;
 
-import java.util.*;
-
 public class WeatherStationHeatIndex {
 
 	public static void main(String[] args) {

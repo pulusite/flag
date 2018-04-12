@@ -1,7 +1,5 @@
 package tba.dp.observer.WeatherStation;
 
-import java.util.*;
-import java.util.Observer;
 
 public class ForecastDisplay implements Observer, DisplayElement {
 	private float currentPressure = 29.92f;  
