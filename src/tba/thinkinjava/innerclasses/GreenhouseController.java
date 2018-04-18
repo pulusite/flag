@@ -1,7 +1,7 @@
 package tba.thinkinjava.innerclasses;//: innerclasses/GreenhouseController.java
 // Configure and execute the greenhouse system.
 // {Args: 5000}
-import innerclasses.controller.*;
+import tba.thinkinjava.innerclasses.controller.*;
 import tba.thinkinjava.innerclasses.controller.Event;
 
 public class GreenhouseController {

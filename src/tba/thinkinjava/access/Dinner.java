@@ -1,6 +1,6 @@
 package tba.thinkinjava.access;//: access/Dinner.java
 // Uses the library.
-import access.dessert.*;
+import tba.thinkinjava.access.dessert.*;
 
 public class Dinner {
   public static void main(String[] args) {

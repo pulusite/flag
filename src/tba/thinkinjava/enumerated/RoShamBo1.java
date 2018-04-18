@@ -2,7 +2,7 @@
 // Demonstration of multiple dispatching.
 package tba.thinkinjava.enumerated;
 import java.util.*;
-import static enumerated.Outcome.*;
+import static tba.thinkinjava.enumerated.Outcome.*;
 
 interface Item {
   Outcome compete(Item it);

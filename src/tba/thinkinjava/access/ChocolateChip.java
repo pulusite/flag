@@ -1,6 +1,6 @@
 package tba.thinkinjava.access;//: access/ChocolateChip.java
 // Can't use package-access member from another package.
-import access.dessert.*;
+import tba.thinkinjava.access.dessert.*;
 
 public class ChocolateChip extends Cookie {
   public ChocolateChip() {

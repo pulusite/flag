@@ -1,6 +1,6 @@
 //: interfaces/interfaceprocessor/FilterProcessor.java
 package tba.thinkinjava.interfaces.interfaceprocessor;
-import interfaces.filters.*;
+import tba.thinkinjava.interfaces.filters.*;
 
 class FilterAdapter implements Processor {
   Filter filter;

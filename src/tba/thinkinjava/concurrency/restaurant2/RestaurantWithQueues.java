@@ -1,7 +1,7 @@
 //: concurrency/restaurant2/RestaurantWithQueues.java
 // {Args: 5}
 package tba.thinkinjava.concurrency.restaurant2;
-import enumerated.menu.*;
+import tba.thinkinjava.enumerated.menu.*;
 import tba.thinkinjava.enumerated.menu.Food;
 
 import java.util.concurrent.*;

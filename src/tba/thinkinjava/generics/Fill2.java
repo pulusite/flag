@@ -1,7 +1,7 @@
 package tba.thinkinjava.generics;//: generics/Fill2.java
 // Using adapters to simulate latent typing.
 // {main: Fill2Test}
-import generics.coffee.*;
+import tba.thinkinjava.generics.coffee.*;
 import java.util.*;
 import net.mindview.util.*;
 import static net.mindview.util.Print.*;

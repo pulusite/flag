@@ -1,6 +1,6 @@
 //: typeinfo/packageaccess/HiddenC.java
 package tba.thinkinjava.typeinfo.packageaccess;
-import typeinfo.interfacea.*;
+import tba.thinkinjava.typeinfo.interfacea.*;
 import static net.mindview.util.Print.*;
 
 class C implements A {

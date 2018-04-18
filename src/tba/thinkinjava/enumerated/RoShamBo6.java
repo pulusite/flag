@@ -1,7 +1,7 @@
 //: enumerated/RoShamBo6.java
 // Enums using "tables" instead of multiple dispatch.
 package tba.thinkinjava.enumerated;
-import static enumerated.Outcome.*;
+import static tba.thinkinjava.enumerated.Outcome.*;
 
 enum RoShamBo6 implements Competitor<RoShamBo6> {
   PAPER, SCISSORS, ROCK;

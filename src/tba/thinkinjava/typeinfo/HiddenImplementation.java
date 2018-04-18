@@ -1,7 +1,7 @@
 package tba.thinkinjava.typeinfo;//: typeinfo/HiddenImplementation.java
 // Sneaking around package access.
-import typeinfo.interfacea.*;
-import typeinfo.packageaccess.*;
+import tba.thinkinjava.typeinfo.interfacea.*;
+import tba.thinkinjava.typeinfo.packageaccess.*;
 import java.lang.reflect.*;
 
 public class HiddenImplementation {

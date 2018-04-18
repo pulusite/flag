@@ -1,4 +1,6 @@
 package tba.io;//: io/MemoryInput.java
+import tba.thinkinjava.io.BufferedInputFile;
+
 import java.io.*;
 
 public class MemoryInput {

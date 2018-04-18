@@ -26,12 +26,12 @@ public class TypeCounter extends HashMap<Class<?>,Integer>{
   }
   public String toString() {
     StringBuilder result = new StringBuilder("{");
-    for(Entry<Class<?>,Integer> pair : entrySet()) {
-      result.append(pair.getKey().getSimpleName());
-      result.append("=");
-      result.append(pair.getValue());
-      result.append(", ");
-    }
+//    for(Entry<Class<?>,Integer> pair : entrySet()) {
+//      result.append(pair.getKey().getSimpleName());
+//      result.append("=");
+//      result.append(pair.getValue());
+//      result.append(", ");
+//    }
     result.delete(result.length()-2, result.length());
     result.append("}");
     return result.toString();

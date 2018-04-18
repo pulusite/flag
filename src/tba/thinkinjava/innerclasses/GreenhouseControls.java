@@ -3,7 +3,7 @@ package tba.thinkinjava.innerclasses;//: innerclasses/GreenhouseControls.java
 // control system, all in a single class. Inner
 // classes allow you to encapsulate different
 // functionality for each type of event.
-import innerclasses.controller.*;
+import tba.thinkinjava.innerclasses.controller.*;
 
 public class GreenhouseControls extends Controller {
   private boolean light = false;

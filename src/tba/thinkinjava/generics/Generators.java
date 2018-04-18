@@ -1,6 +1,6 @@
 package tba.thinkinjava.generics;//: generics/Generators.java
 // A utility to use with Generators.
-import generics.coffee.*;
+import tba.thinkinjava.generics.coffee.*;
 import java.util.*;
 import net.mindview.util.*;
 

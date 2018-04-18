@@ -1,5 +1,5 @@
 package tba.thinkinjava.strings;//: strings/ArrayListDisplay.java
-import generics.coffee.*;
+import tba.thinkinjava.generics.coffee.*;
 import java.util.*;
 
 public class ArrayListDisplay {

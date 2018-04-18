@@ -1,7 +1,7 @@
 //: interfaces/music5/Music5.java
 // Interfaces.
 package tba.thinkinjava.interfaces.music5;
-import polymorphism.music.Note;
+import tba.thinkinjava.polymorphism.music.Note;
 import static net.mindview.util.Print.*;
 
 interface Instrument {

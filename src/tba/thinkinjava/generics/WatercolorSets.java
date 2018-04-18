@@ -1,9 +1,9 @@
 package tba.thinkinjava.generics;//: generics/WatercolorSets.java
-import generics.watercolors.*;
+import tba.thinkinjava.generics.watercolors.*;
 import java.util.*;
 import static net.mindview.util.Print.*;
 import static net.mindview.util.Sets.*;
-import static generics.watercolors.Watercolors.*;
+import static tba.thinkinjava.generics.watercolors.Watercolors.*;
 
 public class WatercolorSets {
   public static void main(String[] args) {

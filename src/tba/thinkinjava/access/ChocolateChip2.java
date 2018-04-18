@@ -1,5 +1,5 @@
 package tba.thinkinjava.access;//: access/ChocolateChip2.java
-import access.cookie2.*;
+import tba.thinkinjava.access.cookie2.*;
 
 public class ChocolateChip2 extends Cookie {
   public ChocolateChip2() {

@@ -1,5 +1,5 @@
 package tba.thinkinjava.containers;//: containers/IndividualTest.java
-import holding.MapOfList;
+import tba.thinkinjava.holding.MapOfList;
 import typeinfo.pets.*;
 import java.util.*;
 

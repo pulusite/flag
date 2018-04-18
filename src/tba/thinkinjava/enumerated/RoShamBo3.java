@@ -1,7 +1,7 @@
 //: enumerated/RoShamBo3.java
 // Using constant-specific methods.
 package tba.thinkinjava.enumerated;
-import static enumerated.Outcome.*;
+import static tba.thinkinjava.enumerated.Outcome.*;
 
 public enum RoShamBo3 implements Competitor<RoShamBo3> {
   PAPER {

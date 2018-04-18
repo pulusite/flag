@@ -1,4 +1,6 @@
 package tba.io;//: io/FormattedMemoryInput.java
+import tba.thinkinjava.io.BufferedInputFile;
+
 import java.io.*;
 
 public class FormattedMemoryInput {

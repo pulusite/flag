@@ -3,7 +3,7 @@
 package tba.thinkinjava.enumerated;
 import java.util.*;
 import net.mindview.util.*;
-import static enumerated.Input.*;
+import static tba.thinkinjava.enumerated.Input.*;
 import static net.mindview.util.Print.*;
 
 enum Category {

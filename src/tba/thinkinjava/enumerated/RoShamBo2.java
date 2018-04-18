@@ -1,7 +1,7 @@
 //: enumerated/RoShamBo2.java
 // Switching one enum on another.
 package tba.thinkinjava.enumerated;
-import static enumerated.Outcome.*;
+import static tba.thinkinjava.enumerated.Outcome.*;
 
 public enum RoShamBo2 implements Competitor<RoShamBo2> {
   PAPER(DRAW, LOSE, WIN),

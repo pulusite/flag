@@ -1,6 +1,6 @@
 //: enumerated/Burrito.java
 package tba.thinkinjava.enumerated;
-import static enumerated.Spiciness.*;
+import static tba.thinkinjava.enumerated.Spiciness.*;
 
 public class Burrito {
   Spiciness degree;

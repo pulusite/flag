@@ -1,6 +1,6 @@
 package tba.thinkinjava.typeinfo;//: typeinfo/InterfaceViolation.java
 // Sneaking around an interface.
-import typeinfo.interfacea.*;
+import tba.thinkinjava.typeinfo.interfacea.*;
 
 class B implements A {
   public void f() {}

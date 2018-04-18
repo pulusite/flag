@@ -1,6 +1,6 @@
 package tba.jvm;
 
-import sun.security.pkcs11.P11Util;
+//import sun.security.pkcs11.P11Util;
 
 /**
  * Created by dongzhang on 6/4/17.
@@ -8,7 +8,8 @@ import sun.security.pkcs11.P11Util;
 public class ClassLoader_ {
     public static void main(String[] args) throws ClassNotFoundException{
         System.out.println("Hello World!");
-        ClassLoader classLoader = P11Util.class.getClassLoader();
+//        ClassLoader classLoader = P11Util.class.getClassLoader();
+        ClassLoader classLoader=ClassLoader_.class.getClassLoader();
         System.out.println(classLoader);
 
 
