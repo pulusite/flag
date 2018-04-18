@@ -1,4 +1,4 @@
-package tba.autoboxing;
+package tba.basic.autoboxing;
 
 /**
  * Created by dongzhang on 4/11/17.
